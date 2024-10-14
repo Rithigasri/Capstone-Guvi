@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Define your variables here
-        GITHUB_REPO = 'https://github.com/Rithigasri/portfolio.git' // Replace with your GitHub repository URL
+        GITHUB_REPO = 'git@github.com:Rithigasri/Capstone-Guvi.git' // Replace with your GitHub repository URL
         DEPLOY_DIR = '/var/www/html' // Apache default document root
         SSH_CREDENTIALS_ID = '9e5eefe4-055a-4706-bcf4-1e8175379236' // Jenkins credentials ID for SSH
         EC2_USER = 'ubuntu' // Replace with your EC2 user if different
