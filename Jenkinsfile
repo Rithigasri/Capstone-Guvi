@@ -7,7 +7,7 @@ pipeline {
         DEPLOY_DIR = '/var/www/html' // Apache default document root
         SSH_CREDENTIALS_ID = '9e5eefe4-055a-4706-bcf4-1e8175379236' // Jenkins credentials ID for SSH
         EC2_USER = 'ubuntu' // Replace with your EC2 user if different
-        EC2_HOST = '13.59.93.160' // Replace with your EC2 instance public IP
+        EC2_HOST = '3.143.209.116' // Replace with your EC2 instance public IP
     }
 
     stages {
